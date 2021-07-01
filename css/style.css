@@ -1,0 +1,32 @@
+
+header
+{
+    background-color: coral;
+}
+
+main
+{
+    background-color: cadetblue;
+}
+
+footer
+{
+    background-color: blueviolet;
+}
+
+.conteinerGeralFPOO
+{
+    background-color:cyan;
+}
+.conteinerGeralSOP
+{
+    background-color:deeppink;
+}
+.conteinerGeralHARE
+{
+    background-color:gold;
+}
+.conteinerGeralLIMA
+{
+    background-color:darkgreen;
+}
