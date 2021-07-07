@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="css/mainCss/main.css">
     <link rel="stylesheet" href="css/mainCss/fpooCss.css">
+    <link rel="stylesheet" href="css/mainCss/sopCss.css">
 
     <title>1° SEM - Desenvolvimento Sist.</title>
 </head>
@@ -34,10 +35,10 @@
             <div class="menu">
                 <ul class="listaMenu">
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">SOP</a></li>
-                    <li><a href="#">HARE</a></li>
-                    <li><a href="#">LIMA</a></li>
-                    <li><a href="#">FPOO</a></li>
+                    <li><a href="#FPOO">FPOO</a></li>
+                    <li><a href="#SOP">SOP</a></li>
+                    <li><a href="#HARE">HARE</a></li>
+                    <li><a href="#LIMA">LIMA</a></li>
                 </ul>
             </div>
             <div class="areaAluno">
@@ -63,17 +64,17 @@
             </p>
         </div>
 
-        <div class="conteinerGeralFPOO">
+        <div id="FPOO" class="conteinerGeralFPOO">
 
             <div class="tituloSecao">
                 <h2>Fundamentos de Prog. Orientada a Objeto</h2>
             </div>
 
-            <div class="conteinergeralFPOO">
+            <div class="conteinerTextosMidiaslFPOO">
 
                 <div class="textosFPOO">
 
-                    <div class="textoPrincipalFPOO">
+                    <div class="DivtextoPrincipalFPOO">
                         <h3 class="tituloPrincipal">O que é?</h3>
                         <p class="textoPrincipalFPOO">
                             Apertar botões, calcular coisas, filtrar informações... As máquinas nos permitem fazer muitas coisas, mas quem ensinou tantas
@@ -133,53 +134,86 @@
         </div>
 
 
-        <div class="conteinerGeralSOP">
+        <div id="SOP" class="conteinerGeralSOP">
 
             <div class="tituloSecao">
                 <h2>Sistemas Operacionais</h2>
             </div>
 
-            <div class="textoPrincipalSOP">
-                <h3 class="tituloPrincipal">Titulo Texto Principal</h3>
+            <div class="DivtextoPrincipalSOP">
+
+                <h3 class="tituloPrincipal">O que é?</h3>
+
                 <p class="textoPrincipalSOP">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laboriosam, minus quaerat neque et dolorem praesentium 
-                    obcaecati, eligendi nostrum numquam, itaque dolore atque accusantium. Quibusdam optio laboriosam adipisci animi culpa!
+                    Estamos constantemente em contato com a tecnologia, manipulando-a à nossa vontade para diversos fins. Você já parou para
+                    pensar o que possibilita que essa manipulação ocorra?
+                </p>
+                <p class="textoPrincipalSOP">
+                    Como resposta a essa pergunta, temos os Sistemas Operacionais. Eles são uma parte não-física, conhecida como Software, 
+                    que nos ajuda a comandar a parte física, chamada Hardware, atuando, portanto, como intermediadores, tradutores de informações. 
+                </p>
+                <p class="textoPrincipalSOP">
+                    Eles nem sempre existiram: no início, o contato humano-hardware era direto, então qualquer deslise era fatal. Assim, o SO 
+                    surgiu para nos ajudar preservar as informações e ferramentas tecnológicas.
+                </p>
+                <p class="textoPrincipalSOP">
+                    Eles estão presentes em computadores, smartwatch, videogames, carros e até em máquinas de lavar e são divididos em Kernel, 
+                    que é o coração, que entende a “língua” do hardware, e o restante que está mais “próximo” ao usuário. Os exemplos mais 
+                    conhecidos de SO são o Windows, Linux, MacOs e Android. 
+                </p>
+                <p class="textoPrincipalSOP">
+                    Veja abaixo alguns vídeos sobre outras aprendizagens envolvidas no tema: 
                 </p>
             </div>
             
             <div class="geralConteudosSecSOP">
 
-                <div class="conteinerPrimConteudosSecSOP">
-                    <!-- <video class="primeiroVideo" width="25%" autoplay="autoplay" controls="controls">
-                        <source src="video/videoTeste.mp4">
-                    </video> -->
-                    <h5>Titulo primeiro video SOP</h5>
-                    <p class="legendaVideoSOP">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laboriosam, minus quaerat neque et dolorem praesentium 
-                    </p>
-                </div>
+                <h4 class="tituloSecundario">Olhando mais de perto...</h4>
 
-                <div class="conteinerSegConteudosSecSOP">
-                    <video src="#"></video>
-                    <h5>Titulo segundo video SOP</h5>
-                    <p class="legendaVideoSOP">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laboriosam, minus quaerat neque et dolorem praesentium 
-                    </p>
-                </div>
+                <div class="videosLegendasTitulosSop">
 
-                <div class="conteinerTerConteudosSecSOP">
-                    <video src="#"></video>
-                    <h5>Titulo segundo video SOP</h5>
-                    <p class="legendaVideoSOP">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laboriosam, minus quaerat neque et dolorem praesentium 
-                    </p>
+                    <div class="conteinerPrimConteudosSecSOP">
+                        <video class="primeiroVideo" width="25%" autoplay="autoplay" controls="controls">
+                            <source src="video/VÍDEO TESTE.mp4">
+                        </video>
+                        <h5>Instalando o cérebro</h5>
+                        <p class="legendaVideoSOP">
+                            Como será que ligamos o Sistema Operacional ao Hardware? Simples: você precisa instalar o sistema. 
+                            Neste vídeo, vou mostrar como você pode fazer isso usando como exemplo a versão 20.04 do Ubuntu.
+                        </p>
+                    </div>
+    
+                    <div class="conteinerSegConteudosSecSOP">
+                        <video class="primeiroVideo" width="25%" autoplay="autoplay" controls="controls">
+                            <source src="video/VÍDEO TESTE.mp4">
+                        </video>
+                        <h5>Desespero e gritaria</h5>
+                        <p class="legendaVideoSOP">
+                            Uma tela amedrontadora, cheia de textos estranhos e impossíveis de entender... Será? Neste vídeo,
+                             vamos desmistificar o Interpretador de comandos e aprender como usar alguns de seus recursos usando 
+                             como exemplo o Windows 10. Deixe seu mouse de lado e vamos nessa!
+                        </p>
+                    </div>
+    
+                    <div class="conteinerTerConteudosSecSOP">
+                        <video class="primeiroVideo" width="25%" autoplay="autoplay" controls="controls">
+                            <source src="video/VÍDEO TESTE.mp4">
+                        </video>
+                        <h5>Textos, planilhas...</h5>
+                        <p class="legendaVideoSOP">
+                            Caneta, lápis, papel... Hoje em dia já estão em desuso, usamos muito mais recursos tecnológicos para criar textos,
+                             fazer gráficos, calcular coisas. Nesse vídeo, temos uma introdução de duas ferramentas que nis ajudam a fazer isso: 
+                             Word e Excel. 
+                        </p>
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
 
-        <div class="conteinerGeralHARE">
+        <div id="HARE" class="conteinerGeralHARE">
 
             <div class="tituloSecao">
                 <h2>Hardware e Redes</h2>
@@ -221,7 +255,7 @@
 
         </div>
 
-        <div class="conteinerGeralLIMA">
+        <div id="LIMA" class="conteinerGeralLIMA">
 
             <div class="tituloSecao">
                 <h2>Linguagem de Marcação</h2>
