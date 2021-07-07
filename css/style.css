@@ -7,6 +7,12 @@ header
 main
 {
     background-color: cadetblue;
+    padding: 1%;
+    /* font-family: 'Khula', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
 }
 
 footer
@@ -30,3 +36,4 @@ footer
 {
     background-color:darkgreen;
 }
+

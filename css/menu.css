@@ -1,0 +1,31 @@
+.menu
+{
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+li, a
+{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Khula', sans-serif;
+    color: white;
+    /* background-color: teal; */
+}
+
+.menu ul
+{
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+a:hover
+{
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(122, 153, 189);
+    transition: 0.5s;
+}

@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/buttonAreaAluno.css">
 
     <title>1° SEM - Desenvolvimento Sist.</title>
 </head>
@@ -15,23 +25,26 @@
 
     <header>
         <div class="cabecalho">
-            <div class="menuLogo">
-                <img src="#" alt="logo">
+            <img class= "imgLogo" src="./img/logoSenai.jpg" alt="logo">
+            <div class="menu">
                 <ul class="listaMenu">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">SOP</a></li>
                     <li><a href="#">HARE</a></li>
                     <li><a href="#">LIMA</a></li>
                     <li><a href="#">FPOO</a></li>
-                    
                 </ul>
             </div>
             <div class="areaAluno">
-                 <a href="#">Área Aluno</a> <!--MUDAR PARA BUTTON? -->
+                <button class="buttonAreaAluno">Area do Aluno</button>
             </div>
         </div>
+
+        <div class="imagemTituloHeader">
+            <h1>Desenvolvimento de sistemas</h1>
+            <img src="./img/capaHeader.png" alt="Capa ilustrando desenvolvimento de sistemas">
+        </div>
         
-        <!--IMAGEM DE FUNDO PELO CSS -->
     </header>
 
 
@@ -105,7 +118,9 @@
             <div class="geralConteudosSecSOP">
 
                 <div class="conteinerPrimConteudosSecSOP">
-                    <video src="#"></video>
+                    <!-- <video class="primeiroVideo" width="25%" autoplay="autoplay" controls="controls">
+                        <source src="video/videoTeste.mp4">
+                    </video> -->
                     <h5>Titulo primeiro video SOP</h5>
                     <p class="legendaVideoSOP">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laboriosam, minus quaerat neque et dolorem praesentium 

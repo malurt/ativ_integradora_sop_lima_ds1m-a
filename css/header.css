@@ -1,0 +1,16 @@
+.cabecalho
+{
+    background-color: #004AAD;
+    height: 20%;
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLogo
+{
+    width: 9%;
+    height: 7%;
+}
