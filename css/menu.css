@@ -27,5 +27,5 @@ a:hover
 {
     font-weight: bold;
     text-shadow: 1px 1px 3px rgb(122, 153, 189);
-    transition: 0.5s;
+    transition: 0.4s;
 }
