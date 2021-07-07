@@ -1,0 +1,100 @@
+.conteinerGeralFPOO
+{
+    background-color: #E6EEF6;
+    border-radius: 9px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tituloSecao
+{
+    /* background-color: rgb(226, 223, 43); */
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #004AAD;
+}
+
+.conteinergeralFPOO
+{
+    /* background-color: brown; */
+    display: flex;
+}
+
+.textosFPOO /*Conteiner geral mesmo*/
+{
+    /* background-color: coral; */
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3, h4
+{
+    /* text-align: center; */
+    padding-left: 30px;
+}
+
+.textoPrincipalFPOO 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.DivTextoSecundarioFPOO
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.textoPrincipalFPOO h3
+{
+    font-size: 25px;
+}
+
+.midiasFPOO
+{
+    /* background-color: darkgreen; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imgPrimeiraFPOO
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* background-color: aquamarine; */
+}
+
+.fpooMidia1Img
+{
+    width: 80%;
+}
+
+.imgSegundaFPOO
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* background-color: aquamarine; */
+}
+
+.fpooMidia2Img
+{
+    width: 80%;
+}
+
+
