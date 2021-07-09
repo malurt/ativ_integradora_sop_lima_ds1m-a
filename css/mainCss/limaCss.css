@@ -57,7 +57,13 @@
 }
 .conteinermidiasLIMA img
 {
-    width: 50%;
+    width: 75%;
+    border-radius: 7px;
+}
+.conteinermidiasLIMA video
+{
+    width: 75%;
+    border-radius: 7px;
 }
 .conteinermidiasLIMA p
 {
