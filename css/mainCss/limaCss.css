@@ -1,0 +1,87 @@
+.conteinerGeralLIMA
+{
+    background-color: #E6EEF6;
+    border-radius: 9px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteirnerTextosLIMA
+{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteirnerTextosLIMA p
+{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* .textoPrincipalLIMA
+{
+    background-color: cyan;
+} */
+
+.DivTextoSecundarioLIMA
+{
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.DivTextoSecundarioLIMA ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.DivTextoSecundarioLIMA li
+{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+.conteinermidiasLIMA
+{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+.conteinermidiasLIMA img
+{
+    width: 50%;
+}
+.conteinermidiasLIMA p
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+.primeiraMidiaLIMA
+{
+    /* background-color: rgb(0, 110, 255); */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.segundaMidiaLIMA
+{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center
+}
