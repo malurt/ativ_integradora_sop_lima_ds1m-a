@@ -28,12 +28,15 @@
     <link rel="stylesheet" href="css/mainCss/hareCss.css">
     <link rel="stylesheet" href="css/mainCss/limaCss.css">
 
+    <link rel="stylesheet" href="css/footerCss/footer.css">
+    <link rel="stylesheet" href="css/footerCss/buttonVoltarTopo.css">
+
     <title>1° SEM - Desenvolvimento Sist.</title>
 </head>
 <body>
     
 
-    <header>
+    <header id="header">
         <div class="cabecalho">
             <img class= "imgLogo" src="./img/logoSenai.jpg" alt="logo">
             <div class="menu">
@@ -46,7 +49,7 @@
                 </ul>
             </div>
             <div class="areaAluno">
-                <button class="buttonAreaAluno">Area do Aluno</button>
+                <button class="buttonAreaAluno">Área do Aluno</button>
             </div>
         </div>
 
@@ -373,20 +376,31 @@
     <footer>
         <div class="despedida">
             <div class="lamento">
-                <p>Você Chegou ao fim da página! </p> 
+                <p class="textoFooter">Você chegou ao fim da página! </p> 
                 <i class="far fa-sad-tear"></i>
             </div>
 
             <div class="agradecimento">
-                <p>Obrigada por ler até aqui. Espero que tenha gostado e que nos vejamos outra vezlogo!</p>
+                <p  class="textoFooter" >Este é o resultado de um trabalho integrado das disciplinas de LIMA e SOP que conta com textos autorais. Obrigada por ler até aqui!</p>
                 <i class="far fa-smile-beam"></i>
             </div>
+
         </div>
-        
+
+        <a href="#header" class="voltarTopo" >
+            <button href="#header" class="voltarTopoButton" >
+                Voltar ao topo
+                <i class="fas fa-caret-square-up"></i>
+            </button>
+        </a>
+
         <div class="copyrightContatos">
-            <p>Copyright &copy; Maria Luiza Ribeiro Teixeira</p>
-            <a href="https://www.linkedin.com/in/maria-luiza-ribeiro-teixeira-920b90174"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/MaluRibeiro08"><i class="fab fa-github-square"></i></a>
+            <p class="textoFooter">Copyright &copy; Maria Luiza Ribeiro Teixeira  | DS1M-A | 2021</p>
+
+            <div class="contatos">
+                <a href="https://www.linkedin.com/in/maria-luiza-ribeiro-teixeira-920b90174" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MaluRibeiro08" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
         </div>
          
     </footer>

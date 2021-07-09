@@ -1,0 +1,54 @@
+footer
+{
+    background-color: #004AAD;
+    padding: 1.5%;
+    /* font-family: 'Khula', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5vw;
+    gap: 3vw;
+    color: white;
+    font-size: 18px;
+}
+
+.despedida
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.lamento
+{
+    display: flex;
+    gap: 10px;
+}
+
+.agradecimento
+{
+    display: flex;
+    gap: 10px;
+}
+
+
+.copyrightContatos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyrightContatos a
+{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.textoFooter::selection
+{
+    background-color: rgb(182, 181, 181);
+    color: #004AAD;
+}
