@@ -95,6 +95,10 @@ h3, h4
 .fpooMidia2Img
 {
     width: 80%;
+    /* border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(166, 166, 226); */
 }
 
 
