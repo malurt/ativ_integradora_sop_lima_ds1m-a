@@ -25,13 +25,14 @@
     align-items: center;
     justify-content: center;
     padding-top: 9vh;
+    height: 90vh;
 
     /*FONTE:*/
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: #004AAD;
     font-weight: bolder;
-    text-align: center0;
+    text-align: center;
 }
 
 .imgHeader
